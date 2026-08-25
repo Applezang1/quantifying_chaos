@@ -6,13 +6,13 @@ Mathematically, chaos utilizes concepts in vector calculus, advanced differentia
 
 Newton’s approach to mechanics is vector based, and utilizes vector properties to visualize interactions between them. However, a double pendulum is a complex system, making it extremely difficult to model with Newtonian mechanics due to the constraint forces and their interactions with the masses. An alternate method to modeling a double pendulum is to use Lagrange's approach, which utilizes scalar values and the Lagrangian instead. This method uses variational calculus, but provides a much simpler solution. To use it, we can derive the equations of motion by applying the Lagrangian for energies to the Euler-Lagrange equation for mechanics. The Euler-Lagrange equation is  
 
-![Euler-Lagrange Equation](Assets/Images/Euler_Lagrange_Equation.png)
+![Euler-Lagrange Equation](../Assets/Images/Euler_Lagrange_Equation.png)
 
 					(Derived in Derivation)
                     
 This yields one equation for each mass
 
-![Double Pendulum Equations of Motion](Assets/Images/Double_Pendulum_Equations.png)
+![Double Pendulum Equations of Motion](../Assets/Images/Double_Pendulum_Equations.png)
 
 These two equations completely describe the motion of the double pendulum. Note that each equation heavily depends on variables from both arms, showing the motion of one mass is strongly dependent on the other. 
 
